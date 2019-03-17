@@ -6,7 +6,7 @@
 
 public class PlayWithInheritance
 {
-	public static int RUN_EXAMPLE = 1; // change this to try different behaviors
+	public static int RUN_EXAMPLE = 6; // change this to try different behaviors
 										// below
 
 	public static void main(String[] args)
@@ -92,6 +92,11 @@ public class PlayWithInheritance
 		}
 
 		StdOut.println();
+		
+		// Added the following for step H2.5
+		// It proved CrookedDie1's constructor is executed.
+		Die die = CrookedDie1.testStatic();
+		
 	}
 
 	/**
